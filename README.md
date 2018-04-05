@@ -7,9 +7,9 @@ Usage
 
 **Example Usage**
 
-    ``$python processData.py --input /Interlinking-Schema.org/data/2017/schema_Library.gz --output /Interlinking-Schema.org/results/ --type http://schema.org/Library --prop1 name --prop2 address --prop3 email --identifier telephone --year 2017 --num_query 20000 --num_batch 20``
+    $python processData.py --input /Interlinking-Schema.org/data/2017/schema_Library.gz --output /Interlinking-Schema.org/results/ --type http://schema.org/Library --prop1 name --prop2 address --prop3 email --identifier telephone --year 2017 --num_query 20000 --num_batch 20
 
-    Example dump data and (2017 schema_Library.gz) and processed data are respectively in data/2017 and results.
+Example dump data and (2017 schema_Library.gz) and processed data are respectively in data/2017 and results.
 
 **--input**:  *absolute file path and name of input schema.org dump (.gz).*
 **--output**: *a folder to save the result files*
