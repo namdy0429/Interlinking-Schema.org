@@ -11,13 +11,13 @@ Usage
 
 Example dump data and (2017 schema_Library.gz) and processed data are respectively in data/2017 and results.
 
-**--input**:  *absolute file path and name of input schema.org dump (.gz).*
-**--output**: *a folder to save the result files*
-**--type**: *target schema.org type*
-**--prop1-3*: *schema.org properties to include (e.g., "name", "address", "email", "title")*
-**--identifier*: *identifier property which can be unique for each entity (e.g., "telephone", "isbn")*
-**--num_rdf*: *number of RDFs tha will be condensed in one file*
-**--num_batch*: *number of result files that are processed together*
+..* **--input**: absolute file path and name of input schema.org dump (.gz).
+..* **--output**: a folder to save the result files.
+..* **--type**: target schema.org type.
+..* **--prop1-3**: schema.org properties to include (e.g., "name", "address", "email", "title").
+..* **--identifier**: identifier property which can be unique for each entity (e.g., "telephone", "isbn").
+..* **--num_rdf**: number of RDFs tha will be condensed in one file.
+..* **--num_batch**: number of result files that are processed together.
 
 Requirements
 ------------
